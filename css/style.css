@@ -1,0 +1,54 @@
+/* General styling*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.container > h1 {
+  margin-top: 80px;
+}
+
+body {
+  /*padding-bottom: 50px;*/
+  /* Margin bottom by footer height */
+  margin-bottom: 52px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 52px;
+  background-color: #101010;
+}
+
+.footer p {
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+/* Sign In Page */
+
+#signInPanel {
+  margin-top: 100px;
+}
+
+#signInPanel label {
+  font-weight: normal;
+  vertical-align: middle;
+  padding: 6px 12px;
+}
+
+#login-form {
+	max-width: 400px;
+}
+
+/* Main menu */
+
+.buttons .btn {
+  display: block;
+  max-width: 400px;
+  padding: 10px;
+  margin: 15px auto;
+}
